@@ -16,7 +16,7 @@ import com.atmecs.testsuit.SetUp;
 		Properties Location_path;
 
 		@Test(dataProvider = "SignIn", dataProviderClass = SignInDataProvider.class)
-		public void signup(String username, String password) throws InterruptedException {
+		public void SignUp(String username, String password) throws InterruptedException {
 
 			Location_path = PropertyReader.readProperty(Constant.LOCATOR_PATH);
 
